@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@600&family=Quicksand:wght@400;500;600;700&family=Saira:wght@400;500;600;700&display=swap');
+@import url(./root.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* layout */
+.aside {
+    width: 256px;
+    height: 100vh;
+    background: var(--color-bg);
+    padding: 24px;
+}
+
+.container {
+    max-width: 1519px !important;
+}
+
+.backcover {
+    display: inline-flex;
+    padding: 13.078px 72.094px 16.297px 18.859px;
+    align-items: center;
+    border-radius: 16.641px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.backcov {
+    margin: 0px 0px 0px 18.859px;
+    cursor: pointer;
+}
+
+.home svg path {
+    fill: var(--color-main);
+}
+
+.search {
+    display: flex;
+    width: 288px;
+    height: 44px;
+    padding: 11.094px 23.297px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: #2A2A2A;
+}
+
+.input {
+    background-color: transparent;
+    border: transparent;
+}
+
+[type=text] {
+    outline: 0 !important;
+    color: #fff;
+}
+
+.bg-navo {
+    width: 1265px;
+    height: 95px;
+    flex-shrink: 0;
+    background: #131313;
+}
+
+/* hover */
+.backcover:hover .home svg path {
+    fill: var(--color-primary);
+}
+
+.backcover:hover {
+    display: inline-flex;
+    padding: 13.078px 72.094px 16.297px 18.859px;
+    align-items: center;
+    border-radius: 16.641px;
+    background: var(--g, linear-gradient(66deg, rgba(0, 66, 255, 0.50) -11.84%, rgba(235, 0, 27, 0.50) 98.75%));
+}
+
+.backcover:hover p {
+    color: var(--color-primary);
+}
+
+/* after before */
+.bottum-line::after {
+    content: '';
+    position: absolute;
+    width: 220px;
+    height: 1.109px;
+    background: var(--color-main);
+    bottom: -25px;
+    left: 0%;
+}
+
+/* padding & margin */
+.pl-45 {
+    padding-left: 45px;
+}

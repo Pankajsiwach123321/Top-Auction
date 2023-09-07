@@ -1,0 +1,106 @@
+:root {
+    --fs-xsm: 10px;
+    --fs-sm: 12px;
+    --fs-md: 14px;
+    --fs-xl: 16px;
+    --fs-xxl: 17px;
+    --fs-3xl: 18px;
+    --fs-4xl: 24px;
+    --fs-5xl: 32px;
+    /* font-weight: ; */
+    --fw-xsm: 400;
+    --fw-sm: 500;
+    --fw-md: 600;
+    --fw-xl: 700;
+    /* font-family: ; */
+    --font-main: 'Saira', sans-serif;
+    --font-primary: 'Quicksand', sans-serif;
+    --font-secandary: 'Poppins', sans-serif;
+    --font-tertiary: 'Inter', sans-serif;
+    /* color */
+    --color-main: #A2A3A4;
+    --color-primary: #FFFFFF;
+    --color-secandary: #000000;
+    --color-bg: #131313;
+    /*--color-tertiary: ; */
+}
+
+/* font-size  */
+.fs-xsm {
+    font-size: var(--fs-xsm);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-xxl {
+    font-size: var(--fs-xxl);
+}
+
+.fs-3xl {
+    font-size: var(--fs-3xl);
+}
+
+.fs-4xl {
+    font-size: var(--fs-4xl);
+}
+
+.fs-5xl {
+    font-size: var(--fs-5xl);
+}
+
+/* font weight class */
+.fw-xsm {
+    font-weight: var(--fw-xsm);
+}
+
+.fw-sm {
+    font-weight: var(--fw-sm);
+}
+
+.fw-md {
+    font-weight: var(--fw-md);
+}
+
+.fw-xl {
+    font-weight: var(--fw-xl);
+}
+
+/* color */
+.color-main {
+    color: var(--color-main);
+}
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-secandary {
+    color: var(--color-secandary);
+}
+
+/* font-family */
+.font-main {
+    font-family: var(--font-main);
+}
+
+.font-primary {
+    font-family: var(--font-primary);
+}
+
+.font-secandary {
+    font-family: var(--font-secandary);
+}
+
+.font-tertiary {
+    font-family: var(--font-tertiary);
+}
