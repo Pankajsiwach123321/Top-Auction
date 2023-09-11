@@ -5,8 +5,11 @@
     --fs-xl: 16px;
     --fs-xxl: 17px;
     --fs-3xl: 18px;
+    --fs-nest: 20px;
+    --fs-base: 22px;
     --fs-4xl: 24px;
     --fs-5xl: 32px;
+    --fs-6xl: 36px;
     /* font-weight: ; */
     --fw-xsm: 400;
     --fw-sm: 500;
@@ -17,12 +20,14 @@
     --font-primary: 'Quicksand', sans-serif;
     --font-secandary: 'Poppins', sans-serif;
     --font-tertiary: 'Inter', sans-serif;
+    --font-quinary: 'Oxanium', cursive;
     /* color */
     --color-main: #A2A3A4;
     --color-primary: #FFFFFF;
     --color-secandary: #000000;
     --color-bg: #131313;
-    /*--color-tertiary: ; */
+    --color-teritary: #666666;
+    --color-quinary: #999;
 }
 
 /* font-size  */
@@ -50,12 +55,24 @@
     font-size: var(--fs-3xl);
 }
 
+.fs-nest {
+    font-size: var(--fs-nest);
+}
+
+.fs-base {
+    font-size: var(--fs-base);
+}
+
 .fs-4xl {
     font-size: var(--fs-4xl);
 }
 
 .fs-5xl {
     font-size: var(--fs-5xl);
+}
+
+.fs-6xl {
+    font-size: var(--fs-6xl);
 }
 
 /* font weight class */
@@ -88,6 +105,14 @@
     color: var(--color-secandary);
 }
 
+.color-teritary {
+    color: var(--color-teritary);
+}
+
+.color-quinary {
+    color: var(--color-quinary);
+}
+
 /* font-family */
 .font-main {
     font-family: var(--font-main);
@@ -103,4 +128,7 @@
 
 .font-tertiary {
     font-family: var(--font-tertiary);
+}
+.font-quinary {
+    font-family: var(--font-quinary);
 }
